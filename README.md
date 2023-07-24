@@ -1,2 +1,2 @@
 # portfolio
-Mi portfolio hecho en HTML5, CSS y Bootstrap 5
+Mi portfolio hecho en HTML5, CSS, JS y Bootstrap 5
