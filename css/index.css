@@ -1,0 +1,91 @@
+.fondo {
+    background-color: #222831;
+}
+
+.bordeTransicion {
+    border: 1px solid white;
+    transition: border-color 0.4s ease;
+}
+
+.bordeTransicion:hover {
+    border-color: aqua;
+}
+
+.imagen:hover .card-img {
+    filter: opacity(0.2);
+}
+
+.card-img {
+    filter: opacity(1);
+    transition: filter 0.5s ease;
+}
+
+.tamanio {
+    height: 470px;
+    width: 450px;
+}
+
+@media (max-width: 767px) {
+    .tamanio {
+        width: auto;
+        height: 500px;
+    }
+}
+
+.imagen:hover .contenido {
+    display: block;
+    transition: filter 0.7s ease;
+}
+
+.contenido {
+    display: none;
+}
+
+
+.list-group {
+    background-color: #333;
+}
+
+.list-group-item {
+    color: #fff;
+    background-color: #222;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #444;
+}
+
+.botonRepositorio {
+    background-color: #333;
+    color: rgb(0, 173, 181);
+    border-color: rgb(0, 173, 181);
+}
+
+.botonRepositorio:hover {
+    background-color: rgb(0, 173, 181);
+    color: white;
+    border-color: rgb(0, 173, 181);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #999;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #666;
+}
